@@ -2,6 +2,5 @@ streamlit
 google-generativeai
 pyttsx3
 SpeechRecognition
-portaudio19-dev
-python3-pyaudio
+PyAudio==0.2.14
 
