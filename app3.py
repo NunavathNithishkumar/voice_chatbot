@@ -1106,7 +1106,7 @@ if st.button("Send Message", key="send_message") and (text_query.strip()):
         response = generate_response(query)
         response = add_website_link(response, query)  # Append the website link if relevant
     st.session_state["messages"].append({"sender": "bot", "text": response})
-    st.experimental_rerun()
+    # st.experimental_rerun()
 
 # Display response speech option
 if st.session_state["messages"] and st.session_state["messages"][-1]["sender"] == "bot":
