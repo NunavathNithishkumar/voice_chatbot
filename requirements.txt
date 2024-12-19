@@ -2,5 +2,5 @@ streamlit
 google-generativeai
 pyttsx3
 SpeechRecognition
-pyaudio==0.2.11 ; sys_platform == 'win32'
-pyaudio ; sys_platform != 'win32'
+pyaudio
+portaudio
