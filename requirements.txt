@@ -2,5 +2,5 @@ streamlit
 google-generativeai
 pyttsx3
 SpeechRecognition
-PyAudio==0.2.14
+pyaudio
 
